@@ -20,28 +20,6 @@ RedHat:
     name: TEMPLATE-redhat
   config: /etc/TEMPLATE.conf
 
-Suse:
-  pkg:
-    name: TEMPLATE-suse
-
-Gentoo: {}
-
-Arch:
-  pkg:
-    name: TEMPLATE-arch
-  service:
-    name: service-arch
-
-Alpine: {}
-
-FreeBSD:
-  rootgroup: wheel
-
-OpenBSD:
-  rootgroup: wheel
-
-Solaris: {}
-
 Windows: {}
 
 MacOS: {}

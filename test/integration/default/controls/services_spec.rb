@@ -2,7 +2,7 @@
 
 # Overide by OS
 service_name = 'systemd-journald'
-service_name = 'crond' if (os[:name] == 'centos') && os[:release].start_with?('6')
+service_name = 'crond' if (os[:name] == 'centos') && os[:release].start_with?('7')
 
 control 'TEMPLATE service' do
   impact 0.5

@@ -2,7 +2,7 @@
 
 # Overide by OS
 package_name = 'bash'
-package_name = 'cronie' if (os[:name] == 'centos') && os[:release].start_with?('6')
+package_name = 'cronie' if (os[:name] == 'centos') && os[:release].start_with?('7')
 
 control 'TEMPLATE package' do
   title 'should be installed'
